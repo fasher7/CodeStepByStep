@@ -46,7 +46,7 @@ void hoursWorked(string information)
 46 Jessica 8.5 1.5 5 5 10 6
 7289 Erik 3 6 4 4.68 4
 
-CHANGED INTO
+COUT
 
 Alex     (ID#  123) worked 10.0 hours (2.50/day)
 Jessica  (ID#   46) worked 36.0 hours (6.00/day)
