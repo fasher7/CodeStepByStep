@@ -21,7 +21,7 @@ void leetSpeak(string file1, string file2)
             {
                 edited << 0;
             }
-            else if (readline[y] == 'l')
+            else if (readline[y] == 108)
             {
                 edited << 1;
             }
