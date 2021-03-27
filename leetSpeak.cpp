@@ -73,7 +73,7 @@ seven years ago our
 fathers brought forth on this continent
 a new nation
 
-CHANGED INTO
+COUT
 
 (f0ur) (sc0r3) (4nd)
 (s3v3n) (y34rZ) (4g0) (0ur)
