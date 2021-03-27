@@ -19,3 +19,14 @@ double averageValueInFile(string values)
     reading.close();
     return sum / counting;
 }
+
+/*
+ 1.5
+  2.75  9.0
+
+-3.25  0.0      6.5
+
+COUT 
+
+2.75
+*/
