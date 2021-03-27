@@ -59,7 +59,7 @@ the JAWS that bite, the claws that Catch,
 Beware the JubJub bird and SHUN
 The Frumious Bandersnatch."
 
-CHANGED INTO
+COUT
 
 DID GYRE AND GIMBLE IN THE WABE.
 twas brillig and the slithy toves
