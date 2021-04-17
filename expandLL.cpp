@@ -55,7 +55,6 @@ void expand(ListNode *&front, int k)
         return;
     }
 
-    int newbox = k - 1;
     ListNode *curr = front;
 
     while (curr != nullptr)
