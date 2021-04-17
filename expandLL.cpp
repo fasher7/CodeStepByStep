@@ -58,7 +58,7 @@ void expand(ListNode *&front, int k)
     int newbox = k - 1;
     ListNode *curr = front;
 
-    while (curr->next != nullptr)
+    while (curr != nullptr)
     {
         int x = (curr->data) / k;
         for (int i = 1; i < k; ++i)
@@ -72,19 +72,7 @@ void expand(ListNode *&front, int k)
         }
         curr = curr->next;
     }
-    
-    int x = (curr->data) / k;
-    for (int i = 1; i < k; ++i)
-    {
-        ListNode *make = new ListNode;
-        curr->data = x;
-        make->next = curr->next;
-        curr->next = make;
-        make->data = x;
-        curr = curr->next;
-    }
 }
-
 
 int main()
 {
