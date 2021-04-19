@@ -73,11 +73,6 @@ void switchEvens(ListNode *&front1, ListNode *&front2)
         maincount = count1;
     }
 
-    ListNode *prev1 = front1;
-    ListNode *prev2 = front2;
-    ListNode *thenext1 = nullptr;
-    ListNode *thenext2 = nullptr;
-
     for (int i = 0; i < maincount; ++i)
     {
         if ((curr1->data) % 2 == 0 && (curr2->data) % 2 == 0)
