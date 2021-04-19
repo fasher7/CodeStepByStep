@@ -21,8 +21,7 @@ void addValue(ListNode *&n, int data)
 {
     if (n == nullptr)
     {
-        n = new ListNode;
-        n->data = data;
+        n = new ListNode{data};
     }
     else
     {
@@ -31,8 +30,7 @@ void addValue(ListNode *&n, int data)
         {
             current = current->next;
         }
-        ListNode *p = new ListNode;
-        p->data = data;
+        ListNode *p = new ListNode{data};
         current->next = p;
     }
 }
